@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference
+        android:key="pref_progressive_speed"
+        android:title="Progressive speed leveling"
+        android:summary="Raise and lower speed"
+        android:defaultValue="true" />
+    <CheckBoxPreference
+        android:key="pref_progressive_bugs"
+        android:title="Progressive bug leveling"
+        android:summary="Raise and lower max bugs"
+        android:defaultValue="true" />
+    <CheckBoxPreference
+        android:key="pref_progressive_bullets"
+        android:title="Progressive bullet leveling"
+        android:summary="Raise and lower max bullets"
+        android:defaultValue="true" />
+    <EditTextPreference
+        android:key="pref_level_up_count"
+        android:title="Point threshold"
+        android:summary="Level change after how many points?"
+        android:defaultValue="10" />
+    <EditTextPreference
+        android:key="pref_victory_target"
+        android:title="Victory target"
+        android:summary="Set target level for victory"
+        android:defaultValue="20" />
+
+
+</PreferenceScreen>
